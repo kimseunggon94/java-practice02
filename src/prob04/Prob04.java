@@ -14,7 +14,6 @@ public class Prob04 {
 		for(int i=0;i<str.length();i++) {
 			a[i]=str.charAt(str.length()-1-i);
 		}
-			
 		return a;
 	}
 	public static void printCharArray(char[] array) {
