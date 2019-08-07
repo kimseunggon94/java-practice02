@@ -10,11 +10,17 @@ public class Prob04 {
 	}
 	
 	public static char[] reverse(String str) {
-		/* 코드를 완성합니다 */
-		return null;
+		char a[]= new char[str.length()];
+		for(int i=0;i<str.length();i++) {
+			a[i]=str.charAt(str.length()-1-i);
+		}
+			
+		return a;
 	}
-
-	public static void printCharArray(char[] array){
-		/* 코드를 완성합니다 */
+	public static void printCharArray(char[] array) {
+		for(int i=0;i<array.length;i++) {
+			System.out.print(array[i]);
+		}
+		System.out.println();
 	}
 }
